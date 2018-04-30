@@ -1,0 +1,12 @@
+create database company;
+use company;
+create table employee
+(
+id varchar(9) NOT NULL,
+first_name CHAR(10) NOT NULL,
+middle_name CHAR(10)  NULL,
+last_name CHAR(10) NOT NULL,
+primary key(id) 
+);
+desc employee;
+
