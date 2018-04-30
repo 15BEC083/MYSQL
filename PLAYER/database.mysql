@@ -1,0 +1,40 @@
+create database student;
+use student;
+create table detail1
+(
+first_name CHAR(10) NOT NULL,
+middle_name CHAR(10) NOT NULL,
+last_name CHAR(10) NOT NULL
+);
+desc detail1;
+show databases;
+show tables;
+drop table detail1;
+
+create database employee;
+use employee;
+create table detail2
+(
+first_name CHAR(10) NOT NULL,
+middle_name CHAR(10) NOT NULL,
+last_name CHAR(10) NOT NULL
+);
+desc detail2;
+show databases;
+show tables;
+
+create database production;
+use production;
+create table detail3
+(
+first_name CHAR(10) NOT NULL,
+middle_name CHAR(10) NOT NULL,
+last_name CHAR(10) NOT NULL
+);
+desc detail3;
+show databases;
+show tables;
+ALTER TABLE detail3 DROP COLUMN middle_name;
+
+
+
