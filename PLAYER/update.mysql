@@ -1,0 +1,17 @@
+ create table employee
+ (
+ ID int not null,
+ NAME char(20)not null,
+ AGE int,
+ ADDRESS varchar(20)not null,
+ SALARY int
+ );
+ insert into employee values(1,'Ramesh',32,'Ahmedabad',2000);
+ insert into employee values(2,'Khilan',25,'Delhi',2000);
+ insert into employee values(3,'kaushik',23,'Kota',2000);
+ insert into employee values(4,'Chaitali',25,'Mumbai',2000);
+ insert into employee values(5,'Hardik',27,'Bhopal',2000);
+ insert into employee values(6,'Komal',22,'MP',2000);
+ insert into employee values(7,'Muffy',24,'Indore',2000);
+ UPDATE employee SET NAME='Maharashtra' WHERE ID=6;
+ select * from employee;
